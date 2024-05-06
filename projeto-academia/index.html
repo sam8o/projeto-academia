@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Workout</title>
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <h1>Workout</h1>
+        <a href="#" class="logo">
+            <img src="./src/img/logo.png" alt="logo" class="imagem">
+            <span class="titulo"></span>
+        </a>
+        <div>
+            <nav class="navegacao">
+                <ul class="menu">
+                    <li class="item"><a href="#pagina-inicial">Página inicial</a></li>
+                    <li class="item"><a href="#sobre">Sobre</a></li>
+                    <li class="item"><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="login">
+        <form method="post" class="formlogin">
+            <h1>Login</h1>
+            <p>Digite os seus dados de acesso no campo abaixo:</p>
+            <label for="email">E-mail</label>
+            <input type="email" placeholder="Digite o seu e-mail" autofocus="true">
+            <label for="password">Senha</label>
+            <input type="password" placeholder="Digite a sua senha">
+            <a href="/">Esqueci minha senha</a>
+            <input type="submit" value="Acessar" class="btn">
+        </form>
+    </div>
+
+    <main class="conteudo-principal" id="projetos"> <!-- aqui comeca o painel -->
+        <section class="paineis">
+            <h1 class="titulo">Sobre Nós</h1>
+
+            <div class="imagem-painel projeto1 mostrar"></div>
+            <div class="imagem-painel projeto2"></div>
+            <div class="imagem-painel projeto3"></div>
+            <div class="imagem-painel projeto4"></div>
+
+            <a href="#" id="btn-voltar" class="seta btn-voltar">voltar</a>
+            <a href="#" id="btn-avancar" class="seta btn-avancar">avançar</a> <!-- aqui comeca o painel-->
+        </section>
+
+        <footer class="rodape" id="contato"> <!-- aqui comeca o rodape , quer dizer o fim de baixo do site -->
+            <nav class="navegacao">
+                <a href="#" class="logo">
+                    <img src="./src/img/logo.png" alt="Logo XPTO" class="imagem">
+                    <span class="titulo"></span>
+                </a>
+
+                <div class="redes-sociais">
+                    <a href="#" class="rede-social">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="rede-social">
+                        <i class="fab fa-instagram-square"></i>
+                    </a>
+                    <a href="#" class="rede-social">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </nav>
+            <p class="copyright">© Todos os direitos reservados</p>
+        </footer> <!-- aqui comeca o rodape , quer dizer o fim de baixo do site -->
+
+        <script src="src/js/painel.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+
+
+</body>
+
+</html>
